@@ -154,7 +154,7 @@ func processFile(ariBaseURL string, certPath string) error {
 	}
 
 	prettyIndent, _ := json.MarshalIndent(ariResp, "", "    ")
-	fmt.Printf(string(prettyIndent))
+	fmt.Print(string(prettyIndent) + "\n")
 	return nil
 }
 
