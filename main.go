@@ -125,7 +125,6 @@ func processFile(ariBaseURL string, certPath string) error {
 			if err != nil {
 				return err
 			}
-			slog.Debug("AKI string extension found", "base64", akiString)
 		}
 	}
 
